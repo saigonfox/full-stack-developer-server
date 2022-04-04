@@ -7,8 +7,6 @@ import userController   from "./controllers/users-controller.js";
 import tuitController from "./controllers/tuits-controller.js";
 
 
-
-
 const app = express();
 app.use(cors());
 helloController(app)
